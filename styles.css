@@ -1,0 +1,56 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+li {
+  list-style: none;
+}
+button {
+  height: 10%;
+  width: 15%;
+  background-color: black;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  color: #565656;
+  outline: none;
+}
+.movieAndTitle {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  margin: 15px;
+  align-items: center;
+  cursor: pointer;
+}
+#movies {
+  text-align: center;
+  display: flex;
+}
+
+#batmanMovieList {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+img {
+  height: 175px;
+  width: 110px;
+}
+#movieInfo {
+  display: flex;
+  background: #565656;
+  padding: 2px;
+}
+/* .posterInfo {
+  width: 270px;
+  height: 400px;
+} */
+
+#infoStuffs {
+  font-size: 25px;
+  margin-left: 7px;
+  color: #060606;
+}
